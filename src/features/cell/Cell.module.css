@@ -1,0 +1,15 @@
+.cell {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.aliveCell {
+  background-color: cadetblue;
+}
+
+.deadCell {
+  background-color: white;
+}

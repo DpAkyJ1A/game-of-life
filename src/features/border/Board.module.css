@@ -1,0 +1,5 @@
+.board {
+  background-color: #222222;
+  display: flex;
+  flex-wrap: wrap;
+}

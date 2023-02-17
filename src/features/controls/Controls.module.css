@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+  gap: 1rem;
+  position: relative;
+}
+
+.btn {
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textBtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  fill: white;
+}
+
+.icon.disabled {
+  display: none;
+}
+
+.rules {
+  position: absolute;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rules input {
+  width: 4.5rem;
+}
